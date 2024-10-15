@@ -46,7 +46,8 @@ public class ActivityMenu extends AppCompatActivity {
         registrarEvaluacionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Lógica para registrar evaluación (implementa lo que necesites aquí)
+                Intent intent = new Intent(ActivityMenu.this, ActivitySpinnerRegistrar.class);// Lógica para registrar evaluación (implementa lo que necesites aquí)
+                startActivity(intent);
             }
         });
 

@@ -23,7 +23,7 @@ public class ActivitySpinnerRegistrar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_spinner); // Asegúrate de que el layout esté correctamente referenciado
+        setContentView(R.layout.activity_spinner_registrar); // Asegúrate de que el layout esté correctamente referenciado
 
         spinnerNiveles1 = findViewById(R.id.spinnerNiveles1);
         spinnerSubniveles2 = findViewById(R.id.spinnerSubniveles2);
@@ -111,7 +111,7 @@ public class ActivitySpinnerRegistrar extends AppCompatActivity {
                     if (selectedProyecto.equals("Sala cuna")) {
                         intent = new Intent(ActivitySpinnerRegistrar.this, ActivityScArt.class);
                     } else if (selectedProyecto.equals("Niveles medios")) {
-                        intent = new Intent(ActivitySpinnerRegistrar.this, ActivityMediosArt.class);
+                        intent = new Intent(ActivitySpinnerRegistrar.this, ActivityRegMedArt.class);
                     } else if (selectedProyecto.equals("Transición")) {
                         intent = new Intent(ActivitySpinnerRegistrar.this, ActivityTransArt.class);
                     }
