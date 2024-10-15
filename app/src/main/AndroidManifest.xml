@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToListdeaprendizaje"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityRegMedConv"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRegMedArt"
+            android:exported="false"/>
+        <activity
+            android:name=".ActivityRegScIden"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySpinnerRegistrar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTransArt"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMediosArt"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScArt"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTransVerb"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMediosVerb"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScVerb"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTransCorp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMediosCorp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScCorp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTransConv"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMediosConv"
+            android:exported="false" />
+        <activity
+            android:name=".SCconv"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTransIden"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMediosIden"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySCiden"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenu"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
